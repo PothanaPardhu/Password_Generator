@@ -108,7 +108,7 @@ function App() {
 
 
 {/* sidebar */}
-          <div className='flex flex-col justify-center items-center sm:items-start gap-1 mt-8 '>
+          <div className='flex flex-col justify-center items-start gap-1 mt-8 '>
             <div className='flex gap-2 '>
             <div  className='flex sm:flex-row flex-col justify-center items-center gap-0.5 text-[16px] md:text-lg'>
               <input className='cursor-pointer mr-2 ' id='range' type="range" min={8} max={50}  value={length} onChange={(e) => {setLength(e.target.value)}} />
