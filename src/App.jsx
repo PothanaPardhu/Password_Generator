@@ -122,7 +122,7 @@ function App() {
 {/* Character Allow */}
             <div className='text-[16px] md:text-lg mt-2 gap-1' >
               <input className='cursor-pointer mr-2 size-4' type="checkbox" defaultChecked={charallow} onChange={() => {SetCharAllow((prev) => !prev)}}/>
-              <label className='size-4 text-xl text-orange-500' >Characters</label>
+              <label className='size-4 text-xl text-orange-500' >Special Characters</label>
             </div>
 
 
